@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "s": "node body.js", 
-    "keith": "pm2 start body.js --attach --max-memory-restart 490M",
-    "c": "tsc"
+   "start": "node body.js"
+   
   },
   "keywords": [
     "bot",
